@@ -10,5 +10,7 @@ Finally I searched Agent X (Nijo) id and with this I could find all stories wher
 
 
 PD: I used developer.marvel to obtain the JSONs but i could bring information back with "curl" too, but first i had to find a hash for consume the resource
+Here an exaple of the URL what i used:
+ $ curl -o prueba.json "https://gateway.marvel.com/v1/public/characters?ts=1540309006&name=Deadpool&apikey=c3773e9d5f6fbf3b3edbd60226be1df9&hash=a5049f661a231195d24228d4c
 
- 
+I used postman too, in this folder i attached 2 screenshots like evidence
