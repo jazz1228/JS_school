@@ -9,4 +9,6 @@ With this ID then, I could search at endpoint https://gateway.marvel.com:443/v1/
 Finally I searched Agent X (Nijo) id and with this I could find all stories where he appears.
 
 
+PD: I used developer.marvel to obtain the JSONs but i could bring information back with "curl" too, but first i had to find a hash for consume the resource
+
  
