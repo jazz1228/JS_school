@@ -458,7 +458,7 @@ body{
      font-size: 1vw;
 
 }
-#rate{
+#rate,#rate2,#rate3,#rate4,#rate5,#rate6,#rate7,#rate8{
     position: absolute;
     font-family:"PlutoSansCondMedium";
      color: #FCF8F3;

@@ -28,6 +28,7 @@ $(document).ready(function(){
 
     $("#book2").hover(function(){$("#information").show();
     $("#wallpa2").show();
+    $("#rate2").text("RATE THIS BOOK");
     $("#wallpa, #wallpa3, #wallpa4, #wallpa5, #wallpa6, #wallpa7, #wallpa8").hide();
     $("#information").css({"top":"0%"});
     $("#information").css({"left":"46.5%"});
@@ -49,6 +50,7 @@ $(document).ready(function(){
 
     $("#book3").hover(function(){$("#information").show();
     $("#wallpa3").show();
+    $("#rate3").text("RATE THIS BOOK");
     $("#wallpa,#wallpa2, #wallpa4, #wallpa5, #wallpa6, #wallpa7, #wallpa8").hide();
     $("#information").css({"left":"12.5%"});
     $("#information").css({"top":"0%"});
@@ -70,6 +72,7 @@ $(document).ready(function(){
 
     $("#book4").hover(function(){$("#information").show();
     $("#wallpa4").show();
+    $("#rate4").text("RATE THIS BOOK");
     $("#wallpa, #wallpa3,#wallpa2,  #wallpa5, #wallpa6, #wallpa7, #wallpa8").hide();
     $("#information").css({"top":"0%"});
     $("#information").css({"left":"40%"});
@@ -91,6 +94,7 @@ $(document).ready(function(){
 
     $("#book5").hover(function(){$("#information").show();
     $("#wallpa5").show();
+    $("#rate5").text("RATE THIS BOOK");
     $("#wallpa, #wallpa3,#wallpa2, #wallpa4,  #wallpa6, #wallpa7, #wallpa8").hide();
     $("#information").css({"top":"43%"});
     $("#information").css({"left":"19.5%"});
@@ -112,6 +116,7 @@ $(document).ready(function(){
 
     $("#book8").hover(function(){$("#information").show();
     $("#wallpa8").show();
+    $("#rate8").text("RATE THIS BOOK");
     $("#wallpa, #wallpa3,#wallpa2, #wallpa4, #wallpa5, #wallpa6, #wallpa7").hide();
     $("#information").css({"top":"43%"});
     $("#information").css({"left":"46.5%"});
@@ -134,6 +139,7 @@ $(document).ready(function(){
 
     $("#book6").hover(function(){$("#information").show();
     $("#wallpa6").show();
+    $("#rate6").text("RATE THIS BOOK");
     $("#wallpa, #wallpa3,#wallpa2, #wallpa4, #wallpa5, #wallpa7, #wallpa8").hide();
     $("#information").css({"top":"43%"});
     $("#information").css({"left":"12.5%"});
@@ -155,6 +161,7 @@ $(document).ready(function(){
 
     $("#book7").hover(function(){$("#information").show();
     $("#wallpa7").show();
+    $("#rate7").text("RATE THIS BOOK");
     $("#wallpa, #wallpa3,#wallpa2, #wallpa4, #wallpa5, #wallpa6, #wallpa8").hide();
     $("#information").css({"top":"43%"});
     $("#information").css({"left":"40%"});
