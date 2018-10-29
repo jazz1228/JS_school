@@ -1,0 +1,1010 @@
+
+/*font types*/
+@font-face {
+    font-family: "PlutoSansCondRegular";
+    font-style: normal;
+    src: url(../fonts/Open/HVD\ Fonts\ -\ PlutoSansCondRegular.otf); 
+}
+@font-face {
+    font-family: "PlutoSansMedium";
+    font-style: normal;
+    src: url(../fonts/Open/HVD\ Fonts\ -\ PlutoSansMedium.otf); 
+}
+@font-face {
+    font-family: "PlutoSansCondRegular";
+    font-style: normal;
+    src: url(../fonts/Open/HVD\ Fonts\ -\ PlutoSansCondRegular.otf); 
+}
+@font-face {
+    font-family: "PlutoSansCondBold";
+    font-style: normal;
+    src: url(../fonts/Open/HVD\ Fonts\ -\ PlutoSansCondBold.otf); 
+}
+@font-face {
+    font-family: "PlutoSansCondLight";
+    font-style: normal;
+    src: url(../fonts/Open/HVD\ Fonts\ -\ PlutoSansCondLight.otf); 
+}
+@font-face {
+    font-family: "PlutoSansCondMedium";
+    font-style: normal;
+    src: url(../fonts/Open/HVD\ Fonts\ -\ PlutoSansCondMedium.otf); 
+}
+
+/*Initial configuration*/
+body{
+    box-sizing: border-box;
+}
+
+*{
+    margin:0px;
+   
+    box-sizing: border-box;
+    
+}
+
+
+
+/*Header*/
+  
+#padre {
+    width: 100%;      
+    background: #fcf8f3;
+    position: absolute;
+    height: 8%;
+    
+}
+#text{
+    position: relative;
+    top :32.5%;
+    width: 10.94%;;
+    height: 37.5%;
+    left: 1.64%;
+}
+#titl {
+    
+    font-family: "PlutoSansMedium";
+    font-size: 1.5vw;
+
+}
+#logo {
+    width: 14.6%;
+    height: 100%;
+    background: white;
+    text-align: center;
+    position: absolute;
+    
+}
+    
+#login{
+    left:85%;
+    position: absolute;
+    height: 62.5%;
+    width: 13.5%;
+    top: 20%;
+}
+#angle{
+    position: absolute;
+    left: 70%;
+    top:30%;
+    
+}
+#name{
+    position: absolute;
+    left: 15%;
+    top:30%;
+    font-size: 1.2vw;
+    font-family: "PlutoSansCondRegular";
+}
+#photo{
+    position: absolute;
+    width: 16.2%;
+    height: 80%;
+    left: 83.7%;
+    top:15.5%
+}
+#q{
+    position: absolute;
+    width: 25.77%;
+    height: 53.75%;
+    left: 72%; 
+    top: 28.75%;
+    padding: 0% 3%;
+    outline: 0px;
+    border: 1px solid #6ec1e4;
+    background: rgba(245,246,248,0.51);
+    border-radius: 50px;
+    color: #000000;
+    font-family: PlutoSansCondRegular;
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    letter-spacing: 0px;
+}
+#lupa{
+    position: absolute;
+    left: 73%;
+    font-size: 1.2vw;
+    top: 44%;
+   
+}
+#separador {
+    height: 100%;
+    width: 1px;
+    background: #dfdad5;
+    position: absolute;
+    z-index: 10;
+}
+
+
+
+#search{
+    height: 100%;    
+    background: #fcf8f3;
+    position: absolute;
+    left:14.6%;
+    right: 14.6%;
+}
+
+
+
+
+#imagen{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0%;
+    transform: translate(-50%,-50%);
+    width: 74.1%;
+    height:58.75%;   
+}
+
+/*body*/
+    #cuerpo {
+        position: absolute;
+        top:8%;
+        width: 100%;
+        height: 92%;
+        
+    }
+    #books {
+        position: absolute;
+        background: #F5F6F8;
+        left: 14.6%;
+        right: 14.6%;
+        
+        height: 100%;
+    }
+
+  #sideleft {
+    position: absolute;
+    background: #231F20;
+    width: 14.6%;
+    height: 100%;
+    
+}
+
+#sideright {
+    position: absolute;
+    background: #231F20;
+    width: 14.6%;
+    height: 100%;
+    left: 85.4%;
+    
+}
+#leftmenu{
+    position: absolute;
+    top: 3.5%;
+    left: 16.4%;
+    
+}
+#rightmenu{
+    position: absolute;
+    top: 3.91%;
+    left: 15%;
+    
+}
+#leftmenudown{
+    position: absolute;
+    top: 39%;
+    left: 16.4%;
+    
+}
+
+#icons, #globe{
+    display: inline-block;
+}
+/*use in other screens*/
+#globe {
+   
+    position: absolute;    
+    color: #6ec1e4;
+    font-size: 0.92vw;
+    padding: 0% 10%;
+  }
+
+  #icons{
+    font-family: "PlutoSansCondRegular";
+    font-size: 0.8vw;
+    padding: 0% 10%;
+   
+
+}
+#iconsr{
+    font-family: "PlutoSansCondLight";
+    font-size: 0.81vw;
+    color: #FCF8F3;
+
+
+}
+/*+++++++++++++*/
+
+#listas{
+    padding: 55% 0%;
+}
+#listas1{
+    padding: 24% 0%;
+}
+#listas2{
+    padding: 8% 0%;
+}
+#titlesleft{
+    font-family: "PlutoSansCondBold";
+     color: white;
+     font-size: 1vw;
+}
+
+#titlesright{
+     font-family: "PlutoSansCondBold";
+     color: #FCF8F3;
+     font-size: 1.2vw;
+}
+  /*books*/
+
+
+ 
+  
+/*Titles: New releases, Release date ...*/
+#releases{
+    position: absolute;
+    width: 88.5%;
+    height: 2.67%;
+    top: 3.04%;
+    left: 6.6%;
+ 
+
+}
+
+ #nr, #rd, #lf, #lj, #po,#sp{
+     position: absolute;
+     display: inline-block;
+     font-size: 1vw;
+}
+#nr{
+    font-family: "PlutoSansCondLight";
+    color: #231F20;
+}
+#rd{
+    font-family: "PlutoSansCondMedium";
+    color: #979797;
+    left:40%;
+}
+#po{
+    font-family: "PlutoSansCondRegular";
+    color: #858585;
+    left:51%;
+}
+#lf,#lj{
+    color:#6ec1e4;
+    
+}
+#lf{
+    left:93.2%;
+}
+#lj{
+    left:95.7%;
+}
+#newbooks{
+    position: absolute;
+    width: 86.2%;
+    height: 91.19%;
+    top:8.91%;
+    left:6.6%;
+}
+#information{
+    position: absolute;
+    width: 39.3%;
+    height: 42.6%;
+    left:19.5%;
+    color: white;
+    background-color: #000000;
+    opacity: 0.9;
+    z-index: 10;
+    display: none;
+    border-radius: 5px
+}
+#description{
+    position: absolute;
+    width: 85%;
+    height: 85%;
+    left: 7.5%;
+    top: 7.5%;
+}
+       
+                   
+#booktitle{
+    font-family: "PlutoSansCondBold";
+     color: #5EB4DD;
+     font-size: 1vw;
+     
+}
+#booktitle, #bookdate{
+   
+    display: inline-block;
+   
+}
+#bookdate{
+    position: absolute;
+    left: 88%;
+}
+#booknovel, #bookauthor{
+    position: relative;
+    display: inline-block;
+    top:10%;
+}
+
+
+#booksummary,#bookrating,#bookrecommended{
+    font-family: "PlutoSansCondBold";
+     color: #858585;
+     font-size: 1vw;
+}
+#bookdate,#bookauthor{
+    font-family: "PlutoSansCondRegular";
+     color: #858585;
+     font-size: 1vw;
+}
+#booknovel,#bookpages,#bookdescrip{
+    font-family: "PlutoSansCondRegular";
+     color: #FFFFFF;
+     font-size: 1vw;
+}
+
+#book1, #book2,#book3,#book4,#book5,#book6,#book7,#book8{
+    position: absolute;
+    width: 17.6%;
+    height: 37.02%;
+   
+    
+}
+#bookimg{
+    position: absolute;
+    height:100%; 
+    width:100%;  
+    border-radius: 5px;
+
+}
+
+#wallpa, #wallpa2,#wallpa3, #wallpa4, #wallpa5, #wallpa6, #wallpa7, #wallpa8{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    display: none;
+    background: #000000;
+    opacity: 0.7;
+    z-index: 10;
+    
+    
+    
+
+}
+#mira{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    
+
+}
+#heart,#mark{
+    position: absolute;
+    background: #ffffff;
+    border-radius: 60px;
+    width: 17.04%;
+    height: 12%;
+    top: 6%;
+    text-align: center;
+   
+    
+}
+#heart{
+    left: 6%;
+}
+#mark{
+    left: 74.43%;
+}
+#read{
+    position: absolute;
+    background: #ffffff;
+    border-radius: 60px;
+    width: 27.27%;
+    height: 19.2%;
+      left:35%;
+    top: 40%;
+   
+    
+}
+#start{
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    color:#6EC1E4;
+    font-size: 1.4vw;
+}
+#inside{
+    color:#9E9E9E;
+    font-size: 1vw;
+}
+
+#minitext{
+    position: absolute;
+    top:85%;
+    width: 100%;
+    height: 23%; 
+}
+#littletitle{
+    font-family:"PlutoSansCondMedium";
+     color: #383838;
+     font-size: 1vw;
+
+}
+#rate{
+    position: absolute;
+    font-family:"PlutoSansCondMedium";
+     color: #FCF8F3;
+     font-size: 0.8vw;
+     top: 70%;
+     left: 20%;
+}
+#littleauthor{
+    font-family: "PlutoSansCondLight";
+     color: #9E9E9E;
+     font-size: 1vw;
+
+}
+#stars{
+    color: #6EC1E4;
+     font-size: 1vw;
+}
+#stars1{
+    position: relative;
+    top: 80%;
+    left: 25%;
+    color: #EEC75A;
+     font-size: 1vw;
+
+}
+
+
+
+
+
+
+#book2{
+    
+    left: 26.7%;
+}
+
+#book3{
+    left: 55%;
+}
+#book4{
+    left: 82%;
+}
+#book5{
+    top: 43%;
+   
+}
+#book6{
+    top: 43%;
+    left: 55%;
+}
+#book7{
+    top: 43%;
+    left: 82%;
+}
+#book8{
+    top: 43%;
+    left: 26.7%;
+}
+
+
+/*Just an space */
+
+/***/
+/****/
+
+/* screen 1*/
+
+
+  @media (max-width:1200px) {
+    
+    #logo {
+        width: 18%;
+      
+      
+          
+    }
+
+    #nr, #rd, #lf, #lj, #po,#sp{
+       
+        font-size: 1.2vw;
+   }
+   #rd{
+    
+    left:39%;
+}
+#po{
+    
+    left:54%;
+}
+   #lf{
+    left:91%;
+}
+#lj{
+    left:94%;
+}
+    #titlesleft, #titlesright{
+        font-size: 1.2vw;
+    }
+    #search{
+        right: 18%;       
+        left:18%;
+    }
+    #globe {
+   
+        font-size: 1.6vw;
+      }
+      #icons{
+       
+        font-size: 1.4vw;
+        padding: 6px;
+    
+    }
+    #iconsr{
+        
+        font-size: 1vw;
+         
+    
+    }
+
+    #leftmenudown{
+        
+        top: 45%;
+        left: 16.4%;
+        
+    }
+    
+
+    #sideleft {
+       
+       
+        width: 18%;
+       
+        
+    }
+    #sideright {
+         width: 18%;      
+        left: 82%;
+        
+    }
+    #books {
+        
+        left: 18%;
+        right: 18%;        
+       
+    }
+    #angle{
+        font-size: 1.2vw;
+        left: 78%;
+        top:40%;
+        
+    }
+
+    #login{
+        left: 81.7%;
+        height: 62.5%;
+        top: 20%;
+    }
+
+    #q{
+        width: 32%;
+        height: 47.5%;
+        left: 65%; 
+        top: 27%; 
+        padding: 0% 4%;
+        font-size: 1.2vw;      
+    }
+    #name{
+        
+        left: 15%;
+        top:40%;
+        font-size: 1.4vw;
+       
+    }
+   
+    #lupa{
+        position: absolute;
+        left: 66%;
+        font-size: 1.2vw;
+       
+    }
+    
+    #photo{
+        width: 16.2%;
+        height: 80%;
+        left: 98%;
+        top:15.5%
+    }
+    #text{
+        position: absolute;
+        top :32.5%;
+        widows: 10.94%;;
+        height: 37.5%;
+        left: 1.64%;
+    }
+    #titl {
+        
+        font-size: 1.6vw;
+    
+    }
+    
+    
+
+}
+/*Screen 2*/
+
+@media (max-width:850px) {
+    
+    #logo {
+        width: 18%;     
+      
+          
+    }
+    #titlesleft, #titlesright{
+        font-size: 1.2vw;
+    }
+    #search{
+        right: 18%;       
+        left:18%;
+    }
+    #globe {
+   
+        font-size: 1.8vw;
+      }
+      #icons{
+       
+        font-size: 1.6vw;
+        padding: 6px;
+    
+    }
+    #iconsr{
+        
+        font-size: 1vw;
+         
+    
+    }
+    #leftmenudown{
+        
+        top: 45%;
+        left: 16.4%;
+        
+    }
+    
+
+    #sideleft {
+       
+       
+        width: 18%;
+       
+        
+    }
+    #sideright {
+         width: 18%;      
+        left: 82%;
+        
+    }
+    #books {
+       
+        left: 18%;
+        right: 18%;        
+       
+    }
+    #angle{
+        font-size: 1.2vw;
+        left: 78%;
+        top:40%;
+        
+    }
+
+    #login{
+        left: 81.7%;
+        height: 62.5%;
+        top: 20%;
+    }
+
+    #q{
+        width: 32%;
+        height: 47.5%;
+        left: 65%; 
+        top: 27%; 
+        padding: 0% 4%;
+        font-size: 1.2vw;      
+    }
+    #name{
+        
+        left: 15%;
+        top:40%;
+        font-size: 1.4vw;
+       
+    }
+   
+    #lupa{
+        position: absolute;
+        left: 66%;
+        font-size: 1.2vw;
+       
+    }
+    
+    #photo{
+        width: 16.2%;
+        height: 80%;
+        left: 98%;
+        top:15.5%
+    }
+    #text{
+        position: absolute;
+        top :32.5%;
+        widows: 10.94%;;
+        height: 37.5%;
+        left: 1.64%;
+    }
+    #titl {
+        
+        font-size: 1.6vw;
+    
+    }
+    
+    
+
+}
+
+/* screen 3*/
+@media (max-width:600px) {
+    
+    #logo {
+        width: 22.5%;
+       
+          
+    }
+    #search{
+        right: 22.5%; 
+        left:22.5%;
+    }
+    #sideleft {
+       
+        
+        width: 22.5%;
+        
+        
+    }
+    #sideright {
+       
+        width: 22.5%;      
+        left: 77.5%;
+        
+    }
+    #titlesleft, #titlesright{
+        font-size: 1.4vw;
+    }
+    #globe {
+   
+        font-size: 2vw;
+      }
+      #icons{
+       
+        font-size: 1.8vw;
+        padding: 6px;
+    
+    }
+    #iconsr{
+        
+        font-size: 1vw;
+         
+    
+    }
+    #leftmenudown{
+        
+        top: 35%;
+        left: 16.4%;
+        
+    }
+    #angle{
+       font-size: 1.2vw;
+        left: 78%;
+        top:40%;
+        
+    }
+    
+    #login{
+        left:77%;
+        width: 18%;
+        height: 62.5%;
+        top: 20%;
+    }
+    #lupa{
+        position: absolute;
+        left: 66%;
+        font-size: 1.6vw;
+       
+    }
+    #name{
+        
+        left: 15%;
+        top:40%;
+        font-size: 1.4vw;
+       
+    }
+    #photo{
+        width: 16.2%;
+        height: 80%;
+        left: 98%;
+        top:15.5%
+    }
+    #books {
+      
+        left: 22.5%;
+        right: 22.5%;        
+        
+    }
+    #separador {
+        height: 70%;
+            
+        top: 15%;
+       
+       
+       
+    }
+    #q{
+        width: 32%;
+        height: 47.5%;
+        left: 65%; 
+        top: 27%;
+        font-size: 1.2vw;
+        padding: 0% 4%;
+    }
+
+    #text{
+       
+        top :32.5%;
+        widows: 10.94%;;
+        height: 37.5%;
+        left: 1.64%;
+    }
+    #titl {
+        
+        font-size: 2.3vw;
+    
+    }
+    
+    
+
+}
+
+/* screen 4*/
+@media (max-width:375px){
+    
+    #logo {
+        width: 22.5%;
+        
+          
+    }
+    #search{
+        right: 22.5%; 
+        
+        left:22.5%;
+    }
+    #sideleft {
+       
+        width: 100%;
+        height: 20%;
+       
+             
+    }
+    #sideright {
+       
+        width: 100%;
+        top:100%;
+        height: 20%;
+        left: 0%;
+    }
+    #books {
+       
+        top:20%;
+        width: 100%;
+        height: 100%; 
+        left: 0%;    
+        
+    }
+    #leftmenudown{
+        top:5%;
+        left: 70%;
+    }
+    #leftmenu{
+        top:5%;
+        
+    }
+    #globe {
+   
+        
+        color: #6ec1e4;
+        font-size: 2.7vw;
+      }
+      #icons{
+        
+        font-size: 3vw;
+        padding: 10px;
+    
+    }
+    
+    #login{
+        left: 77.5%;
+        height: 62.5%;
+        top: 20%;
+    }
+    #lupa{
+        
+        left: 62.2%;
+        top: 50%;
+        font-size: 1.6vw;
+        
+    }
+   
+    
+    
+    #separador {
+        height: 70%;
+       
+        top: 15%;
+        
+        
+    }
+    #q{
+        width: 35%;
+        height: 43%;
+        left: 60%; 
+        top: 32%;
+        padding: 0% 5%;
+        font-size: 1.6vw;
+    }
+    #text{
+        
+        top :40%;
+        widows: 10.94%;;
+        height: 37.5%;
+        left: 1.64%;
+    }
+    #titl {
+        
+        font-size: 2.5vw;
+    
+    }
+    
+    
+
+}
+
+
+
+
+
